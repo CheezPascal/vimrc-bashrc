@@ -1,0 +1,8 @@
+git clone https://github.com/CheezPascal/vimrc-bashrc.git \
+&& cd vimrc-bashrc/ \
+&& cp .vimrc .. \
+&& cp script1 ../.bashrc \
+&& cd .. \
+&& rm script1 \
+&& rm -rf vimrc-bashrc/ \
+&& clear
