@@ -40,12 +40,8 @@ set softtabstop=2
 set expandtab
 set noshiftround
 
-" Set tabstop, shiftwidth, and expandtab specifically for YAML files
-autocmd FileType yaml setlocal tabstop=2 shiftwidth=2 expandtab
-
 " YAML-specific settings
-autocmd FileType yaml setlocal noautoindent nosmartindent
-autocmd FileType yaml setlocal tabstop=2 shiftwidth=2 expandtab
+autocmd FileType yaml setlocal noautoindent nosmartindent indentexpr= indentkeys= tabstop=2 shiftwidth=2 expandtab nocindent
 
 " Cursor motion
 set scrolloff=3
